@@ -1,4 +1,5 @@
-cidade = input('Digite o nome de uma cidade: ')
+cidade = input('Digite o nome de uma cidade: ').strip().lower()
 
-comeca = cidade.split()
 
+
+print('',cidade[:5] == 'santo')
